@@ -17,7 +17,7 @@
 ```
 ###api
 ```html
-<yzp-tab></yzp-tab>/*自定义指令定义封装Tab组件*/
-menu-list/*array 自定义指令接口，定义Tab菜单*/
-tabs-list/*array 自定义指令接口，定义视图路径*/
+<yzp-tab menu-list=["tab1","tab2","tab3"]/*Array define the tabmenu of the tabs*/
+	tabs-list=["./views/view1/index.html","./views/view2/index.html","./views/view3/index.html"]/*Array define the viewlist of the tabs*/
+></yzp-tab>
 ```
